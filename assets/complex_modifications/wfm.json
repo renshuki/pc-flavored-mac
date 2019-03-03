@@ -1,0 +1,96 @@
+{
+  "title": "Windows Flavored Mac",
+  "rules": [
+    {
+      "description": "Change Command+Tab (Mac) to Alt+Tab (Windows)",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "tab",
+            "modifiers": {
+              "mandatory": [
+                "command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "tab",
+              "modifiers": [
+                "option"
+              ]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Change Option+Tab (Mac) to Windows+Tab (Windows)",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "tab",
+            "modifiers": {
+              "mandatory": [
+                "option"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "tab",
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Input source switch (Windows-like)",
+      "manipulators": [
+        {
+          "from": {
+            "simultaneous": [
+              {
+                "key_code": "left_option"
+              },
+              {
+                "key_code": "left_shift"
+              }
+            ],
+            "simultaneous_options": {
+                "key_down_order": "strict"
+            },
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "e",
+              "modifiers": [
+                "left_option"
+              ]
+            }
+          ],
+          "parameters": {
+            "basic.simultaneous_threshold_milliseconds": 500
+          },
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
