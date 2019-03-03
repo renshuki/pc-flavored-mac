@@ -12,16 +12,42 @@ __Karabiner__ simple key modifications:
 |---------------|---------------------|------------------------------------------------------------------------------------------|
 | fn            | left_command        | Simulate Windows / Linux <kbd>Ctrl</kbd> key (in case you use your laptop keyboard)      |
 | left_control  | left_command        | Simulate Windows / Linux <kbd>Ctrl</kbd> key (in case you use an external keyboard)      |
-| left_command  | left_control        | Map <key>Windows</key> key to Mac <kbd>control ^</kbd> key                               |
+| left_command  | left_control        | Map <key>Windows</key> key to Mac <kbd>^ control</kbd> key                               |
 
-## Get Started
+__Karabiner__ complex key modifications:
 
-## Install Karabiner 
+_For mac laptop keyboard:_
+
+ * Change <kbd>⌘ command</kbd> + <kbd>tab</kbd> (Mac) to <kbd>⌥ option</kbd>> + <kbd>tab</kbd>
+ 
+ > Used to witch between windows
+ 
+ * Change <kbd>⌥ option</kbd> + <kbd>tab</kbd> (Mac) to <kbd>⌘ command</kbd> + <kbd>Tab</kbd>
+ 
+ > Used to switch between tabs
+ 
+ * Map language input source switcher to <kbd>⌥ option</kbd>> + <kbd>shift</kbd>
+
+_For external keyboard:_
+
+ * Change <kbd>⌘ command</kbd> + <kbd>tab</kbd> (Mac) to <kbd>Alt</kbd> + <kbd>Tab</kbd> (Windows / Linux)
+ 
+ > Used to witch between windows
+ 
+ * Change <kbd>⌥ option</kbd> + <kbd>tab</kbd> (Mac) to <kbd>Windows</kbd> + <kbd>Tab</kbd> (Windows / Linux)
+ 
+ > Used to switch between tabs
+ 
+ * Map language input source switcher to <kbd>Alt</kbd>> + <kbd>⇧ Shift</kbd>
+
+## Setup
+
+### Install Karabiner 
 Link: https://pqrs.org/osx/karabiner/
 
-## Install Scroll Reverser
+### Install Scroll Reverser
 Link: https://pilotmoon.com/scrollreverser/
 
-## Install LiteSwitch X
+### Install LiteSwitch X
 Link: http://sysbeep.com/
 
