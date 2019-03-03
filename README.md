@@ -49,9 +49,22 @@ Link: https://pqrs.org/osx/karabiner/
 2) Copy files of this repo into `~/.config/karabiner`
 3) Go to *System Preferences > Keyboard > Shortcuts > Input Sources*
 4) Map *Select the previous input source* to <kbd>⌥E</kbd> (this is to make the language input source switcher working)
+5) Check if bidings appear properly in __Simple Modifications__ and __Complex Modifications__ tabs of your *Karabiner-Elements* app.
 
-### Install Scroll Reverser
+### Install Scroll Reverser (optional)
 Link: https://pilotmoon.com/scrollreverser/
+
+I use Scroll Reverser to have a reverse scroll on my Mac touchpad but have a reguler scroll when I plug an external mouse.
+
+1) Install Scroll Reverser
+2) Go to Scroll Reverser preferences
+3) Check the following boxes:
+  - [x] Reverse Scrolling
+  - [x] Reverse Vertical
+  - [x] Reverse Horizontal
+  - [x] Reverse Mouse
+  - [x] Reverse Tablet
+
 
 ### Install LiteSwitch X
 Link: http://sysbeep.com/
