@@ -20,7 +20,7 @@ _For mac laptop keyboard:_
 
  * Change <kbd>⌘ command</kbd> + <kbd>tab</kbd> (Mac) to <kbd>⌥ option</kbd> + <kbd>tab</kbd>
  
- > Used to witch between windows
+ > Used to witch between application windows
  
  * Change <kbd>⌥ option</kbd> + <kbd>tab</kbd> (Mac) to <kbd>⌘ command</kbd> + <kbd>Tab</kbd>
  
@@ -32,7 +32,7 @@ _For external keyboard:_
 
  * Change <kbd>⌘ command</kbd> + <kbd>tab</kbd> (Mac) to <kbd>Alt</kbd> + <kbd>Tab</kbd> (Windows / Linux)
  
- > Used to witch between windows
+ > Used to witch between applications windows
  
  * Change <kbd>⌥ option</kbd> + <kbd>tab</kbd> (Mac) to <kbd>Windows</kbd> + <kbd>Tab</kbd> (Windows / Linux)
  
@@ -66,6 +66,10 @@ I use Scroll Reverser to have a reverse scroll on my Mac touchpad but have a reg
   - [x] Reverse Tablet
 
 
-### Install LiteSwitch X
+### Install LiteSwitch X (optional)
 Link: http://sysbeep.com/
+
+There is a bug/glitch when you move your mouse while doing an <kbd>Alt</kbd> + <kbd>Tab</kbd>.
+
+1) Install LiteSwitch X (no specific configuration)
 
